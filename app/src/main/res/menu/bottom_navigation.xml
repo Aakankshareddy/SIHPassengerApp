@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/commute"
+        android:icon="@drawable/ic_train_black_24dp"
+        android:title="Commute" />
+
+    <item
+        android:id="@+id/safety"
+        android:icon="@drawable/ic_error_black_24dp"
+        android:title="Safety" />
+
+</menu>
