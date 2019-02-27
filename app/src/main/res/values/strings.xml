@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">SIHPassengerApp</string>
+    <string name="title_activity_route_settings">Route Options</string>
+
+    <!-- Strings related to Settings -->
+        <!-- settings for modes-->
+        <string name="pref_header_modes">Preferred Modes</string>
+
+        <!-- settings for modes -->
+        <string name="pref_header_routes">Routes</string>
+        <string name="pref_title_modes_bus">Bus</string>
+        <string name="pref_title_modes_train">Train</string>
+        <string name="pref_title_modes_metro">Metro</string>
+
 </resources>

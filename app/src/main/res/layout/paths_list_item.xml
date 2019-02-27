@@ -7,5 +7,4 @@
         android:text="path 1"
     android:padding="8dp"
     android:layout_margin="8dp"
-    android:textSize="16sp"
-    />
+    android:textSize="16sp" />

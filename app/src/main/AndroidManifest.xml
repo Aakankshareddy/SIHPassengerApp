@@ -49,8 +49,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Paths"></activity>
+        <activity android:name=".Paths" />
+        <activity
+            android:name=".RouteSettings"
+            android:label="@string/title_activity_route_settings"
+            android:parentActivityName=".Paths">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aakankshareddy.sihpassengerapp.Paths" />
+        </activity>
 
     </application>
 

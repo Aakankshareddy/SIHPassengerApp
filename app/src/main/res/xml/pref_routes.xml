@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:title="Best route"
+        android:defaultValue="false"
+        android:key="pref_routes_best" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_routes_cheapest"
+        android:title="Lowest cost" />
+
+    <CheckBoxPreference
+        android:title="Safest route"
+        android:defaultValue="false"
+        android:key="pref_routes_safest"
+        />
+</PreferenceScreen>
