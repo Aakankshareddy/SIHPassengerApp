@@ -58,7 +58,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.aakankshareddy.sihpassengerapp.Paths" />
         </activity>
-
+        <activity android:name=".SeatMatrix">
+        </activity>
     </application>
 
 </manifest>

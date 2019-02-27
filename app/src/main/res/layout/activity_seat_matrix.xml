@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeatMatrix">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="139dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="28dp"
+        android:background="#1F89C0"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="CONDUCTOR"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="#DCEDF6"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="139dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="28dp"
+        android:background="#1F89C0"
+        android:gravity="center"
+        android:text="DRIVER"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="#DCEDF6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/s1"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="48dp"
+        android:background="#FBCA05"
+        android:gravity="center"
+        android:text="1"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/s9"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="9"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s7" />
+
+    <TextView
+        android:id="@+id/s14"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="14"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toEndOf="@+id/s13"
+        app:layout_constraintTop_toBottomOf="@+id/s12" />
+
+    <TextView
+        android:id="@+id/s27"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="27"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toEndOf="@+id/s14"
+        app:layout_constraintTop_toBottomOf="@+id/s25" />
+
+    <TextView
+        android:id="@+id/s28"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="28"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toEndOf="@+id/s27"
+        app:layout_constraintTop_toBottomOf="@+id/s26" />
+
+    <TextView
+        android:id="@+id/s32"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="32"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/s31" />
+
+    <TextView
+        android:id="@+id/s31"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="31"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/s30" />
+
+    <TextView
+        android:id="@+id/s30"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="30"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/s29" />
+
+    <TextView
+        android:id="@+id/s29"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="29"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/s13"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="13"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s11" />
+
+    <TextView
+        android:id="@+id/s12"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="12"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toEndOf="@+id/s11"
+        app:layout_constraintTop_toBottomOf="@+id/s10" />
+
+    <TextView
+        android:id="@+id/s25"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="25"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toEndOf="@+id/s12"
+        app:layout_constraintTop_toBottomOf="@+id/s23" />
+
+    <TextView
+        android:id="@+id/s26"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="26"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toEndOf="@+id/s25"
+        app:layout_constraintTop_toBottomOf="@+id/s24" />
+
+    <TextView
+        android:id="@+id/s11"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="11"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s9" />
+
+    <TextView
+        android:id="@+id/s10"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="10"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toEndOf="@+id/s9"
+        app:layout_constraintTop_toBottomOf="@+id/s8" />
+
+    <TextView
+        android:id="@+id/s24"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="24"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toEndOf="@+id/s23"
+        app:layout_constraintTop_toBottomOf="@+id/s22" />
+
+    <TextView
+        android:id="@+id/s23"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="23"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toEndOf="@+id/s10"
+        app:layout_constraintTop_toBottomOf="@+id/s21" />
+
+    <TextView
+        android:id="@+id/s8"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="20dp"
+        android:background="#DF0E0E"
+        android:gravity="center"
+        android:text="8"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/s7"
+        app:layout_constraintTop_toBottomOf="@+id/s6" />
+
+    <TextView
+        android:id="@+id/s21"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="21"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toEndOf="@+id/s8"
+        app:layout_constraintTop_toBottomOf="@+id/s19" />
+
+    <TextView
+        android:id="@+id/s22"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="22"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toEndOf="@+id/s21"
+        app:layout_constraintTop_toBottomOf="@+id/s20" />
+
+    <TextView
+        android:id="@+id/s7"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#DF0E0E"
+        android:gravity="center"
+        android:text="7"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s5" />
+
+    <TextView
+        android:id="@+id/s6"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="20dp"
+        android:background="#DF0E0E"
+        android:gravity="center"
+        android:text="6"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/s5"
+        app:layout_constraintTop_toBottomOf="@+id/s4" />
+
+    <TextView
+        android:id="@+id/s19"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="19"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toEndOf="@+id/s6"
+        app:layout_constraintTop_toBottomOf="@+id/s17" />
+
+    <TextView
+        android:id="@+id/s20"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="20"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toEndOf="@+id/s19"
+        app:layout_constraintTop_toBottomOf="@+id/s18" />
+
+    <TextView
+        android:id="@+id/s5"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#DF0E0E"
+        android:gravity="center"
+        android:text="5"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s3" />
+
+    <TextView
+        android:id="@+id/s4"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="20dp"
+        android:background="#DF0E0E"
+        android:gravity="center"
+        android:text="4"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/s3"
+        app:layout_constraintTop_toBottomOf="@+id/s2" />
+
+    <TextView
+        android:id="@+id/s17"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="17"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toEndOf="@+id/s4"
+        app:layout_constraintTop_toBottomOf="@+id/s15" />
+
+    <TextView
+        android:id="@+id/s18"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="18"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toEndOf="@+id/s17"
+        app:layout_constraintTop_toBottomOf="@+id/s16" />
+
+    <TextView
+        android:id="@+id/s3"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#DF0E0E"
+        android:gravity="center"
+        android:text="3"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/s1" />
+
+    <TextView
+        android:id="@+id/s2"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="48dp"
+        android:background="#FBCA05"
+        android:gravity="center"
+        android:text="2"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/s1"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/s15"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="15"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toEndOf="@+id/s2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/s16"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/seat_number_border"
+        android:gravity="center"
+        android:text="16"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small"
+        app:layout_constraintStart_toEndOf="@+id/s15"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</android.support.constraint.ConstraintLayout>
