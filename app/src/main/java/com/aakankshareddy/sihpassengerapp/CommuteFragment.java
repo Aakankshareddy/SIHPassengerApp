@@ -1,10 +1,13 @@
 package com.aakankshareddy.sihpassengerapp;
 
 import android.arch.lifecycle.Lifecycle;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,6 +20,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.miguelcatalan.materialsearchview.MaterialSearchView;
 
 /**
  * Created by aakankshareddy on 26/02/19.
@@ -28,11 +32,13 @@ public class CommuteFragment extends Fragment implements OnMapReadyCallback {
     MapView mMapView;
     View mView;
 
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         mView =  inflater.inflate(R.layout.fragment_commute,container, false);
         return mView;
+
     }
 
     @Override
@@ -46,6 +52,17 @@ public class CommuteFragment extends Fragment implements OnMapReadyCallback {
             mMapView.getMapAsync(this);
 
         }
+        Toolbar toolbar = (Toolbar)mView.findViewById(R.id.toolbar);
+        ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
+        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Source");
+        toolbar.setTitleTextColor(Color.parseColor("#FFFFFF"));
+
+        MaterialSearchView searchView = (MaterialSearchView)mView.findViewById(R.id.action_search);
+
+
+
+
+
     }
 
     @Override

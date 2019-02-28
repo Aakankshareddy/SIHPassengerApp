@@ -28,7 +28,7 @@ dependencies {
     implementation "com.google.android.gms:play-services-base:16.0.1"
     implementation "com.google.android.gms:play-services-maps:16.0.0"
     implementation 'com.android.support:design:27.1.1' // design support library
-
+    api 'com.miguelcatalan:materialsearchview:1.4.0'
 }
 
 
