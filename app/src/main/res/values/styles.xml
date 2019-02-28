@@ -8,4 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="HeaderList">
+        <item name="android:headerDividersEnabled">false</item>
+    </style>
 </resources>

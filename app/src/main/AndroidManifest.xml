@@ -31,6 +31,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".PathDetail"></activity>
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -58,8 +59,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.aakankshareddy.sihpassengerapp.Paths" />
         </activity>
-        <activity android:name=".SeatMatrix">
-        </activity>
+        <activity android:name=".SeatMatrix"></activity>
     </application>
 
 </manifest>

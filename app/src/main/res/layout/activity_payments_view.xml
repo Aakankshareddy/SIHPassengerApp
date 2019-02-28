@@ -64,7 +64,7 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/freecharge-logo"
+            android:src="@drawable/freecharge_logo"
             />
         <Button
             android:layout_width="match_parent"
