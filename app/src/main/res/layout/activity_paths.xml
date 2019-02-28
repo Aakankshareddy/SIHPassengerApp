@@ -5,25 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Paths"
-    android:orientation="vertical"
-    android:padding="8dp">
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:id="@+id/paths_navbar">
+        android:id="@+id/paths_navbar"
+        android:background="#739aee">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_arrow_back_black_24dp"
-            android:layout_margin="8dp" />
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+            android:layout_margin="8dp"
+            android:tint="@android:color/white"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_weight="2">
+            android:layout_weight="2"
+            android:layout_marginRight="8dp">
 
             <EditText
                 android:id="@+id/source"
@@ -31,56 +33,132 @@
                 android:layout_height="40dp"
                 android:text="Your location"
                 android:layout_margin="4dp"
+                android:background="@drawable/button_round"
+                android:backgroundTint="#9cb9f2"
+                android:padding="8dp"
+                android:textColor="@android:color/white"
                 />
             <EditText
                 android:id="@+id/destination"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="Museum"
-                android:layout_margin="4dp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_weight="1">
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_margin="4dp"
+                android:background="@drawable/button_round"
+                android:backgroundTint="#9cb9f2"
+                android:padding="8dp"
+                android:textColor="@android:color/white"
+                />
         </LinearLayout>
     </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#4b78de">
         <ImageView
             android:id="@+id/time_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:src="@drawable/ic_access_time_black_24dp"
+            app:srcCompat="@drawable/ic_access_time_black_24dp"
+            android:tint="@android:color/white"
             android:layout_margin="8dp" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Depart at 11:00 AM"
+            android:textColor="@android:color/white"
             android:layout_toRightOf="@id/time_icon"
             android:layout_margin="8dp" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="OPTIONS"
+            android:textColor="@android:color/white"
             android:layout_alignParentRight="true"
             android:layout_margin="8dp" />
     </RelativeLayout>
 
-    <ListView
-        android:id="@+id/paths_matrix_list_view"
+    <ScrollView
+        android:id="@+id/paths_matrix_scroll_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="By Bus"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"/>
+
+            <include
+                layout="@layout/paths_list_view_item_bus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp" />
+
+            <include
+                layout="@layout/paths_list_view_item_bus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp" />
+
+            <include
+                layout="@layout/paths_list_view_item_bus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="By Metro"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <include
+                layout="@layout/paths_list_view_item_metro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp" />
+
+            <include
+                layout="@layout/paths_list_view_item_metro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp" />
+
+            <include
+                layout="@layout/paths_list_view_item_metro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp" />
+
+            <include
+                layout="@layout/paths_list_view_item_metro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp" />
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>
