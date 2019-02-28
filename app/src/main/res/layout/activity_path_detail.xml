@@ -7,7 +7,9 @@
     <include
         layout="@layout/path_summary_bus"
         android:layout_width="match_parent"
-        android:layout_height="58dp" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -16,7 +18,33 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
+            <include
+                layout="@layout/transit_walk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <include
+                layout="@layout/transit_bus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"/>
+            <include
+                layout="@layout/transit_walk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <include
+                layout="@layout/transit_metro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"/>
+            <include
+                layout="@layout/transit_walk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <include
+                layout="@layout/transit_bus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
