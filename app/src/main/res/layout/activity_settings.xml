@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="28dp"
+        android:text="Preferred Modes"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19">
+
+        <RadioButton
+            android:id="@+id/radio_bus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bus"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:buttonTint="@android:color/darker_gray"/>
+
+        <RadioButton
+            android:id="@+id/radio_train"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Train"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:buttonTint="@android:color/darker_gray"/>
+
+        <RadioButton
+            android:id="@+id/radio_metro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Metro"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:buttonTint="@android:color/darker_gray"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="36dp"
+        android:text="Routes"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20">
+
+        <RadioButton
+            android:id="@+id/radio_best_route"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Best route"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:buttonTint="@android:color/darker_gray"/>
+
+        <RadioButton
+            android:id="@+id/radio_lowest_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lowest cost"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:buttonTint="@android:color/darker_gray"/>
+
+        <RadioButton
+            android:id="@+id/radio_safest_route"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Safest route"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:buttonTint="@android:color/darker_gray"/>
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/ic_baseline_commute_24px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:srcCompat="@drawable/ic_directions_walk_black_24dp" />
+</android.support.constraint.ConstraintLayout>

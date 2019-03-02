@@ -8,32 +8,21 @@
 
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width = "match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="right"
-        android:textColor="#3380FF"
-        android:paddingRight="16dp"
-        android:text="Skip filling"
-
-        android:id="@+id/skip_filling_feedback"
-        />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
 
-
         <TextView
+            android:id="@+id/rate_us"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rate us: "
             android:paddingLeft="16dp"
-            android:textSize="28dp"
+            android:text="Rate us: "
             android:textColor="#3380FF"
 
-            android:id="@+id/rate_us"/>
+            android:textSize="28dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
