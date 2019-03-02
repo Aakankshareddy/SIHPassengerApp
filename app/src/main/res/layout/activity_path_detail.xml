@@ -46,12 +46,13 @@
         </LinearLayout>
     </ScrollView>
 
-    <TextView
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="PAY"
         android:gravity="center"
+        android:id="@+id/pay"
         android:background="@color/colorPrimary"
         android:textColor="@android:color/white"
         android:padding="4dp"

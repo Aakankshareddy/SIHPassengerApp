@@ -30,6 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="PayTM"
+        android:id="@+id/paytm"
         android:textSize="18dp"
         android:textColor="#FFFFFF"
         android:background="#3380FF"/>
@@ -51,6 +52,7 @@
             android:layout_height="wrap_content"
             android:text="Mobikwik"
             android:textSize="18dp"
+            android:id="@+id/mobi"
             android:textColor="#FFFFFF"
             android:background="#3380FF"/>
 
@@ -71,6 +73,7 @@
             android:layout_height="wrap_content"
             android:text="Freecharge"
             android:textSize="18dp"
+            android:id="@+id/freecharge"
             android:textColor="#FFFFFF"
             android:background="#3380FF"/>
 
@@ -100,6 +103,7 @@
             android:layout_height="wrap_content"
             android:text="Credit/Debit Card"
             android:textSize="18dp"
+            android:id="@+id/credit"
             android:textColor="#FFFFFF"
             android:background="#3380FF"/>
 
@@ -121,6 +125,7 @@
             android:text="Sodexo Meal Pass"
             android:textSize="18dp"
             android:textColor="#FFFFFF"
+            android:id="@+id/sodexo"
             android:background="#3380FF"/>
 
 
@@ -140,6 +145,7 @@
             android:layout_height="wrap_content"
             android:text="Netbanking"
             android:textSize="18dp"
+            android:id="@+id/netbanking"
             android:textColor="#FFFFFF"
             android:background="#3380FF"/>
 
@@ -168,6 +174,7 @@
             android:layout_height="wrap_content"
             android:text="Cash on Boarding"
             android:textSize="18dp"
+            android:id="@+id/cash"
             android:textColor="#FFFFFF"
             android:background="#3380FF"/>
     </LinearLayout>

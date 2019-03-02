@@ -31,7 +31,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Settings"></activity>
+        <activity android:name=".RouteSettings"></activity>
         <activity android:name=".PathDetail" />
 
         <meta-data
@@ -46,8 +46,12 @@
 
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".Paths" />
+        <activity android:name=".PaymentsView"></activity>
+        <activity android:name=".PaymentSuccessful"></activity>
+
+
         <activity
-            android:name=".RouteSettings"
+            android:name=".Settings"
             android:label="@string/title_activity_route_settings"
             android:parentActivityName=".Paths">
             <meta-data
