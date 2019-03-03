@@ -4,21 +4,21 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.ListView;
+import android.widget.TextView;
 
 public class Paths extends AppCompatActivity {
-    private LinearLayout LL;
+    private LinearLayout linearLayout;
+    private TextView departTV;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_paths);
-        LL = (LinearLayout) findViewById(R.id.paths_ll);
-        LL.setOnClickListener(new View.OnClickListener() {
+        linearLayout = findViewById(R.id.paths_ll);
+        departTV = findViewById(R.id.depart_time);
+
+        linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i=new Intent(
@@ -30,6 +30,8 @@ public class Paths extends AppCompatActivity {
         });
     }
 
-
-
+    public void onClickBtn(View view) {
+        linearLayout.setVisibility(View.VISIBLE);
+        departTV.setVisibility(View.VISIBLE);
+    }
 }
