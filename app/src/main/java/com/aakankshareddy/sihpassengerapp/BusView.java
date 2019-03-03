@@ -6,19 +6,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class PathDetail extends AppCompatActivity {
-    private Button Pay;
+public class BusView extends AppCompatActivity {
+    private Button Proceed;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_path_detail);
-        Pay = (Button) findViewById(R.id.pay);
-        Pay.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_bus_matrix_view);
+        Proceed = (Button) findViewById(R.id.proceedtopay);
+        Proceed.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i=new Intent(
-                        PathDetail.this,
-                        BusView.class);
+                        BusView.this,
+                        PaymentsView.class);
                 startActivity(i);
             }
 

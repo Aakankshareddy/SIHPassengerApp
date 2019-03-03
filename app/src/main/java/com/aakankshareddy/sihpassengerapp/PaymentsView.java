@@ -21,7 +21,7 @@ public class PaymentsView extends AppCompatActivity {
         Net = (Button) findViewById(R.id.netbanking);
         Cash = (Button) findViewById(R.id.cash);
 
-        Mobi.setOnClickListener(new View.OnClickListener() {
+       /* Mobi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i=new Intent(
@@ -91,6 +91,6 @@ public class PaymentsView extends AppCompatActivity {
             }
 
         });
-
+*/
     }
 }

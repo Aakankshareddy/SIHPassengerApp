@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:id="@+id/paths_navbar"
-        android:background="#739aee">
+        android:background="#f28a0c">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
                 android:text="Your location"
                 android:layout_margin="4dp"
                 android:background="@drawable/button_round"
-                android:backgroundTint="#9cb9f2"
+                android:backgroundTint="#ffbe70"
                 android:padding="8dp"
                 android:textColor="@android:color/white"
                 />
@@ -45,7 +45,7 @@
                 android:text="Museum"
                 android:layout_margin="4dp"
                 android:background="@drawable/button_round"
-                android:backgroundTint="#9cb9f2"
+                android:backgroundTint="#ffbe70"
                 android:padding="8dp"
                 android:textColor="@android:color/white"
                 />

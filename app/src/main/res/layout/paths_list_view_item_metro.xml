@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="376dp"
         android:layout_marginLeft="376dp"
-        android:tint="#575757"
+        android:tint="#ffa500"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/include"
         app:srcCompat="@drawable/ic_keyboard_arrow_right_black_24dp" />

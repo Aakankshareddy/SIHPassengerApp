@@ -13,7 +13,7 @@
         android:foregroundGravity="center"
         app:layout_constraintStart_toEndOf="@+id/imageView11"
         app:layout_constraintTop_toTopOf="parent"
-        android:tint="#8f8f90"
+        android:tint="#ffa500"
         app:srcCompat="@drawable/ic_directions_bus_black_24dp" />
 
     <ImageView
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toEndOf="@+id/imageView13"
         app:layout_constraintTop_toTopOf="parent"
-        android:tint="#8f8f90"
+        android:tint="#ffa500"
         app:srcCompat="@drawable/ic_directions_bus_black_24dp" />
 
     <TextView
