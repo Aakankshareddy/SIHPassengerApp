@@ -11,173 +11,87 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Wallets: "
-        android:textSize="20dp"
+        android:text="Wallets"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
         android:paddingTop="12dp"
-        android:paddingBottom="12dp"
-        android:textColor="#3380FF"/>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:paddingBottom="12dp" />
 
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/paytm"
-        />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="PayTM"
         android:id="@+id/paytm"
-        android:textSize="18dp"
-        android:textColor="#FFFFFF"
-        android:background="#3380FF"/>
-
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/mobi"
-            />
+        android:textSize="13sp"
+        android:background="@drawable/payment_button"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Mobikwik"
-            android:textSize="18dp"
+            android:textSize="13sp"
             android:id="@+id/mobi"
-            android:textColor="#FFFFFF"
-            android:background="#3380FF"/>
+            android:background="@drawable/payment_button"/>
 
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/freecharge_logo"
-            />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Freecharge"
-            android:textSize="18dp"
+            android:textSize="13sp"
+            android:textColor="@android:color/black"
             android:id="@+id/freecharge"
-            android:textColor="#FFFFFF"
-            android:background="#3380FF"/>
+            android:background="@drawable/payment_button"/>
 
 
-    </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Online Payments: "
-        android:textSize="20dp"
-
+        android:text="Online Payments"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
         android:paddingTop="12dp"
-        android:paddingBottom="12dp"
-        android:textColor="#3380FF"/>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:paddingBottom="12dp" />
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/credit"
-            />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Credit/Debit Card"
-            android:textSize="18dp"
+            android:textSize="13sp"
+            android:textColor="@android:color/black"
             android:id="@+id/credit"
-            android:textColor="#FFFFFF"
-            android:background="#3380FF"/>
+            android:background="@drawable/payment_button"/>
 
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Netbanking"
+                android:id="@+id/netbanking"
+                android:textColor="@android:color/black"
+                android:background="@drawable/payment_button"
+                android:textSize="13sp"
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/sodexo"
-            />
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Sodexo Meal Pass"
-            android:textSize="18dp"
-            android:textColor="#FFFFFF"
-            android:id="@+id/sodexo"
-            android:background="#3380FF"/>
+                />
 
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/net"
-            />
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Netbanking"
-            android:textSize="18dp"
-            android:id="@+id/netbanking"
-            android:textColor="#FFFFFF"
-            android:background="#3380FF"/>
-
-
-    </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cash: "
-        android:textSize="20dp"
+        android:text="Cash"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
         android:paddingTop="12dp"
-        android:paddingBottom="12dp"
-        android:textColor="#3380FF"/>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:paddingBottom="12dp" />
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/cash"
-            />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cash on Boarding"
-            android:textSize="18dp"
             android:id="@+id/cash"
-            android:textColor="#FFFFFF"
-            android:background="#3380FF"/>
+            android:textColor="@android:color/black"
+            android:background="@drawable/payment_button"
+            android:textSize="13sp"/>
     </LinearLayout>
-
-
-</LinearLayout>

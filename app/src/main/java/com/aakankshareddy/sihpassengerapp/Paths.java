@@ -34,4 +34,16 @@ public class Paths extends AppCompatActivity {
         linearLayout.setVisibility(View.VISIBLE);
         departTV.setVisibility(View.VISIBLE);
     }
+
+    public void onStartSettings(View view) {
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(
+                        Paths.this,
+                        Settings.class);
+                startActivity(i);
+            }
+        });
+    }
 }

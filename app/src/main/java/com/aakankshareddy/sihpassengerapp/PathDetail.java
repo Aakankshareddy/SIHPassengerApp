@@ -18,10 +18,22 @@ public class PathDetail extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i=new Intent(
                         PathDetail.this,
-                        BusView.class);
+                        PaymentsView.class);
                 startActivity(i);
             }
 
+        });
+    }
+
+    public void onStartSeatsView(View view) {
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(
+                        PathDetail.this,
+                        SeatMatrix.class);
+                startActivity(i);
+            }
         });
     }
 }

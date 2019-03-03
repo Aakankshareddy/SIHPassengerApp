@@ -17,7 +17,6 @@ public class PaymentsView extends AppCompatActivity {
         Mobi = (Button) findViewById(R.id.mobi);
         Freecharge = (Button) findViewById(R.id.freecharge);
         Credit = (Button) findViewById(R.id.credit);
-        Sodexo = (Button) findViewById(R.id.sodexo);
         Net = (Button) findViewById(R.id.netbanking);
         Cash = (Button) findViewById(R.id.cash);
 

@@ -12,16 +12,5 @@ public class Settings extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
-        Proceed = (Button) findViewById(R.id.proceed);
-        Proceed.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i=new Intent(
-                        Settings.this,
-                        Paths.class);
-                startActivity(i);
-            }
-
-        });
     }
 }

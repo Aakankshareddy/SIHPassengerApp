@@ -66,6 +66,7 @@
         android:background="@drawable/button_round"
         android:text="SEATS"
         android:textSize="10sp"
+        android:onClick="onStartSeatsView"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toTopOf="parent" />
 
