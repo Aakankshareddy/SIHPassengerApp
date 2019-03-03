@@ -22,7 +22,7 @@ public class qrcode extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i=new Intent(
                         qrcode.this,
-                        PaymentsView.class);
+                        PaymentSuccessful.class);
                 startActivity(i);
             }
 

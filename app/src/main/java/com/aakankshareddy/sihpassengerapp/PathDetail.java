@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class PathDetail extends AppCompatActivity {
     private Button Pay;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

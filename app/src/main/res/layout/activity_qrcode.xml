@@ -15,7 +15,6 @@
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:textAlignment="center"
-        android:textColor="#ffa500"
             android:textSize="20dp"
         android:text="As per entered source and destination, the generated QR Code is as below. Please show it to the conductor on booarding the bus for payment and booking confirmation."/>
     <ImageView
@@ -34,6 +33,7 @@
         android:layout_gravity="center"
         android:background="#ffa500"
         android:text="Proceed"
+        android:textColor= "#ffffff"
         android:id="@+id/proceedfromqr"/>
 
 

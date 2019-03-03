@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class PaymentsView extends AppCompatActivity {
-    private Button PayTM, Freecharge, Mobi, Credit, Sodexo, Net, Cash;
+    private Button PayTM, Freecharge, Mobi, Credit, Net, Cash;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,12 +20,12 @@ public class PaymentsView extends AppCompatActivity {
         Net = (Button) findViewById(R.id.netbanking);
         Cash = (Button) findViewById(R.id.cash);
 
-       Mobi.setOnClickListener(new View.OnClickListener() {
+        Mobi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i=new Intent(
                         PaymentsView.this,
-                        PaymentSuccessful.class);
+                        qrcode.class);
                 startActivity(i);
             }
 
@@ -35,7 +35,7 @@ public class PaymentsView extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i=new Intent(
                         PaymentsView.this,
-                        PaymentSuccessful.class);
+                        qrcode.class);
                 startActivity(i);
             }
 
@@ -45,7 +45,7 @@ public class PaymentsView extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i=new Intent(
                         PaymentsView.this,
-                        PaymentSuccessful.class);
+                        qrcode.class);
                 startActivity(i);
             }
 
@@ -55,7 +55,7 @@ public class PaymentsView extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i=new Intent(
                         PaymentsView.this,
-                        PaymentSuccessful.class);
+                        qrcode.class);
                 startActivity(i);
             }
 
@@ -63,29 +63,20 @@ public class PaymentsView extends AppCompatActivity {
         Credit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(
+                Intent i = new Intent(
                         PaymentsView.this,
-                        PaymentSuccessful.class);
+                        qrcode.class);
                 startActivity(i);
             }
 
         });
-        Sodexo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i=new Intent(
-                        PaymentsView.this,
-                        PaymentSuccessful.class);
-                startActivity(i);
-            }
 
-        });
         PayTM.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i=new Intent(
                         PaymentsView.this,
-                        PaymentSuccessful.class);
+                        qrcode.class);
                 startActivity(i);
             }
 

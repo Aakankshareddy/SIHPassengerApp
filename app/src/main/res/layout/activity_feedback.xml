@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
             android:text="Rate us: "
-            android:textColor="#3380FF"
+
 
             android:textSize="28dp" />
 
@@ -35,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Cleanliness:"
-                android:textColor="#3380FF"
+
 
                 android:textSize="22dp"
                 android:id="@+id/cleanliness"
@@ -44,7 +44,7 @@
                 android:id="@+id/ratingBarCleanliness"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:numStars="3"
+                android:numStars="5"
                 android:stepSize="0.5"
                 android:scaleX=".8"
                 android:scaleY=".8"
@@ -66,7 +66,7 @@
                 android:layout_height="wrap_content"
                 android:text="Driver:"
                 android:textSize="22dp"
-                android:textColor="#3380FF"
+
 
                 android:id="@+id/behav_of_driver"
                 />
@@ -79,7 +79,7 @@
                 android:scaleX=".8"
                 android:scaleY=".8"
                 android:layout_marginStart="8dp"
-                android:numStars="3"
+                android:numStars="5"
                 />
 
         </LinearLayout>
@@ -95,7 +95,6 @@
                 android:layout_height="wrap_content"
                 android:text="Conductor:"
                 android:textSize="22dp"
-                android:textColor="#3380FF"
 
 
                 android:id="@+id/behav_of_conductor"
@@ -105,7 +104,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
-                android:numStars="3"
+                android:numStars="5"
                 android:layout_marginStart="8dp"
                 android:stepSize="0.5"
                 android:scaleX=".8"
@@ -126,7 +125,6 @@
                 android:layout_height="wrap_content"
                 android:text="Safety:"
                 android:textSize="22dp"
-                android:textColor="#3380FF"
 
                 android:id="@+id/safety"
                 />
@@ -135,7 +133,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
-                android:numStars="3"
+                android:numStars="5"
                 android:stepSize="0.5"
                 android:scaleX=".8"
                 android:scaleY=".8"
@@ -156,7 +154,7 @@
                 android:layout_height="wrap_content"
                 android:text="Comments/Complaints"
                 android:textSize="22dp"
-                android:textColor="#3380FF"
+
 
                 android:id="@+id/comments_complaints"
                 />
@@ -193,7 +191,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Sumbit" />
+            android:text="Submit" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

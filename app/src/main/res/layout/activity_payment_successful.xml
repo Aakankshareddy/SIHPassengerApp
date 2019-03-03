@@ -24,6 +24,6 @@
         android:textSize="24dp"
         android:text="Payment Successful!"
         android:layout_gravity="center"
-        android:textColor="#3380FF"/>
+        />
 
 </LinearLayout>
