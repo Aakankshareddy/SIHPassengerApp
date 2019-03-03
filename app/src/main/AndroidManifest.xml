@@ -44,22 +44,14 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".MainActivity"></activity>
         <activity android:name=".Settings" />
         <activity android:name=".BusView" />
         <activity android:name=".qrcode" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".PaymentsView"></activity>
         <activity android:name=".PaymentSuccessful"></activity>
 
-
-        <activity
-            android:name=".Paths"
-            android:label="@string/title_activity_route_settings"
-            android:parentActivityName=".Paths">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.aakankshareddy.sihpassengerapp.Paths" />
-
+        <activity android:name=".Paths" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
